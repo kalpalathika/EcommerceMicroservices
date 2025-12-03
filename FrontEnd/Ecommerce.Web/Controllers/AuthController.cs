@@ -38,7 +38,6 @@ namespace Ecommerce.Web.Controllers
         {
             var roleList = new List<SelectListItem>()
             {
-                new SelectListItem{Text=SD.RoleAdmin,Value=SD.RoleAdmin},
                 new SelectListItem{Text=SD.RoleCustomer,Value=SD.RoleCustomer},
             };
 
@@ -94,7 +93,6 @@ namespace Ecommerce.Web.Controllers
 
             var roleList = new List<SelectListItem>()
             {
-                new SelectListItem{Text=SD.RoleAdmin,Value=SD.RoleAdmin},
                 new SelectListItem{Text=SD.RoleCustomer,Value=SD.RoleCustomer},
             };
 
